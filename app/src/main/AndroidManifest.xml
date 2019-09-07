@@ -12,7 +12,6 @@
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
-
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
@@ -20,9 +19,9 @@
         </activity>
         <activity android:name=".SecondActivity">
         </activity>
-        <activity android:name=".ThirdActivity">
+        <activity android:launchMode="singleInstance" android:name=".ThirdActivity">
         </activity>
-        <activity android:name=".FourthActivity">
+        <activity android:launchMode="singleInstance" android:name=".FourthActivity">
         </activity>
     </application>
 
