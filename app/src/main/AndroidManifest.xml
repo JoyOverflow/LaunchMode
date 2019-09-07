@@ -17,11 +17,16 @@
         </activity>
         <activity android:name=".FirstActivity">
         </activity>
-        <activity android:name=".SecondActivity">
+        <activity
+            android:launchMode="singleTask"
+            android:taskAffinity="ouyj.hyena.com.launchmode_001"
+            android:name=".SecondActivity">
         </activity>
-        <activity android:launchMode="singleInstance" android:name=".ThirdActivity">
+        <activity android:name=".ThirdActivity">
         </activity>
-        <activity android:launchMode="singleInstance" android:name=".FourthActivity">
+        <activity android:launchMode="singleInstance"
+                  android:taskAffinity="ouyj.hyena.com.launchmode_001"
+                  android:name=".FourthActivity">
         </activity>
     </application>
 
